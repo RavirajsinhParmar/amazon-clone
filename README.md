@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## ScreenShots
 
-<img src="Login_SignUp.png">
+<img src="login_signUp.png">
 <img src="home.png">
 <img src="cart.png">
 <img src="checkout.png">
