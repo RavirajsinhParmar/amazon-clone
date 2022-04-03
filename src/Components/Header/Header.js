@@ -1,12 +1,12 @@
 import { SearchOutlined, ShoppingCartOutlined } from "@ant-design/icons";
 import React from "react";
 import { Link } from "react-router-dom";
-import { auth } from "./Firebase";
+import { auth } from "../../Firebase";
 import "./Header.css";
-import { useStateValue } from "./StateProvider";
+import { useStateValue } from "../../StateProvider";
 
 const Header = () => {
-  const [{ basket, user }, dispatch] = useStateValue();
+  const [{ basket, user }] = useStateValue();
 
   const handleAuthentication = () => {
     if (user) {

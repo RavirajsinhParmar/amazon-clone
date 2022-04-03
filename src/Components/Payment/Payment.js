@@ -1,11 +1,11 @@
 import React, { useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import CheckoutProduct from "./CheckoutProduct";
+import CheckoutProduct from "../Checkout/CheckoutProduct/CheckoutProduct";
 import "./payment.css";
-import { useStateValue } from "./StateProvider";
+import { useStateValue } from "../../StateProvider";
 import { CardElement } from "react-stripe-elements";
 import CurrencyFormat from "react-currency-format";
-import { getBasketTotal } from "./Reducer";
+import { getBasketTotal } from "../../Reducer";
 
 const Payment = () => {
   const [{ basket, user }, dispatch] = useStateValue();
