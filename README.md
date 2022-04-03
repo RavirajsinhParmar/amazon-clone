@@ -4,10 +4,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## ScreenShots
 
-<!-- <img src="Login_SignUp.png">
-<img src="Home.png"> 
-<img src="cart.png"> 
-<img src="checkout.png"> -->
+![login_signup](Login_SignUp.png "Login- signup page")
+
+<!-- <img src="Login_SignUp.png">-->
+<img src="Home.png">
+<img src="cart.png">
+<img src="checkout.png">
 
 ## Available Scripts
 
